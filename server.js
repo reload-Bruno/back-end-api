@@ -49,10 +49,11 @@ app.get("/", async (req, res) => {        // Cria endpoint na rota da raiz do pr
     dbStatus = e.message;
   }
   console.log("Rota GET / solicitada");
-  res.json({
-    message: "API para Enricar",      // Substitua pelo conteúdo da sua API
-    author: "Samuel R. Caroba",    // Substitua pelo seu nome
+   res.json({
+    message: "API para viver e diferente de ta vivo ",      // Substitua pelo conteúdo da sua API
+    author: "Bruno Luan Ferreira Pardinho",    // Substitua pelo seu nome
     statusBD: dbStatus   // Acrescente esta linha
+
   });
 });
 
